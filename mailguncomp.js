@@ -8,10 +8,10 @@ export default function MyApp() {
   const [body, setBody] = useState('')
   const [result, setResult] = useState('')
 
-  //const DOMAIN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+  //const DOMAIN = "309a201a929ec35b5d073ab1294ca1a8-602cc1bf-cd18fc46";
   const mg = {
-    apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-    domain: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.mailgun.org',
+    apiKey: '309a201a929ec35b5d073ab1294ca1a8-602cc1bf-cd18fc46',
+    domain: 'sandboxdd54c1e250304213831e0df577224269.mailgun.org',
   }
 
   const data = {
@@ -56,7 +56,7 @@ export default function MyApp() {
       params: params,
       auth: {
         username: 'api',
-        password: 'xxxxxxxxxxxxxxxxxxxxxx-xxxxxxxx-xxxxxxxx',
+        password: 'b8336d7fc379b5496ab0aa1f4e7037e9-a65173b1-13ee6dcf',
       },
     }
     return configObject
@@ -65,7 +65,7 @@ export default function MyApp() {
     console.log(data)
     console.log(requestObject())
     let configObejct = requestObject(
-      'https://api.mailgun.net/v3/sandboxxxxxxxxxxxxx-xxxxxxxx-xxxxxxxx.mailgun.org/messages',
+      'https://api.mailgun.net/v3/sandbox4f109f583f0b4756b6884c79e103305f.mailgun.org/messages',
       'post',
       data
     )
