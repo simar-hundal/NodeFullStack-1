@@ -1,0 +1,10 @@
+you can install plugging called @types/node
+	for auto completion in vs code 
+
+	npm install --save-dev @types/node
+
+
+to be able to restrat the code automatically on save 
+we can do fowwloeing 
+
+	npm install -g nodemon
